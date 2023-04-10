@@ -9,35 +9,34 @@ Original file is located at
 
 class cuadrado():
   def __init__(self,lado1):
-  self.lado1 = lado1
+    self.lado1 = lado1
 
   def area(self):
-  return self.lado1 * 4
+    return self.lado1 * 4
 
   def perimetro(self):
-  return self.lado1 * 2
+    return self.lado1 * 2
 
 class rectangulo():
   def __init__(self,lado1,lado2):
-  self.lado1 = lado1
-  self.lado2 = lado2
+    self.lado1 = lado1
+    self.lado2 = lado2
   
   def area(self):
-  return self.lado1 * 2 + self.lado2 * 2
+    return self.lado1 * 2 + self.lado2 * 2
 
   def perimetro(self):
-  return self.lado1 * self.lado2
+    return self.lado1 * self.lado2
 
 class circulo():
   def __init__(self,radio)
-  self.radio = radio
+    self.radio = radio
 
   def area(self):
-  pi = 3.1416
-  return pi * self.radio ** 2
+    pi = 3.1416
+    return pi * self.radio ** 2
 
   def perimetro(self):
-  pi = 3.1416
-  return 2* pi * self.radio
+    pi = 3.1416
+    return 2* pi * self.radio
 
-cuadrado(2)
